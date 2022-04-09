@@ -14,7 +14,8 @@ function Navbar() {
             </div>
 
             <div className="rightSide">
-
+                <input type="text" placeholder="Search..." />
+                <button>Search</button>
             </div>
         </div>
     )

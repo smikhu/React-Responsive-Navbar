@@ -8,6 +8,10 @@ body {
   padding: 0;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .navbar {
   background-color: #021E39;
   width: 100%;
@@ -37,4 +41,26 @@ body {
 
 .navbar .rightSide {
   flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 25px;
 }
+
+.rightSide input {
+  width: 220px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  padding-left: 15px;
+  color: black;
+}
+
+.rightSide button {
+  height: 32px;
+  width: 70px;;
+  font-size: 16px;
+
+}
+
